@@ -19,8 +19,18 @@ h1 {
     color: white;
 }
 
-h2 {
+h3 {
 
+    margin-left: 10px;
+    margin-bottom:0px;
+}
+
+#text-input {
+    margin-top:5px;
+    margin-left: 10px;
+}
+
+#btn-search {
     margin-left: 10px;
 }
 
