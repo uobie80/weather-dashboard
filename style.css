@@ -36,14 +36,14 @@ h3 {
 
 #top-left-panel {
 
-    border:1px solid black;
+    
     height:155px;
     width: 99.87%;
    
 }
 #bottom-left-panel {
 
-    border:1px solid black;
+   
     height:642px;
     width: 99.87%;
    
@@ -53,8 +53,13 @@ h3 {
     height:155px;
 }
 
-#search-history-content {
+#search-history-section {
     height:642px;
+    
+}
+
+#search-history-list {
+    margin-left: 10px;
 }
 
 
@@ -74,11 +79,8 @@ h3 {
 
 }
 
-
-
-
 .col {
-    border:1px solid black;
+    
     float: left;
     width: 15.33%;
 }
@@ -87,5 +89,15 @@ h3 {
     border:1px solid black;
     width: 99.87%;
     height: 800px;
+}
+
+
+#curr-forecast-content{
+    margin-left: 10px;
+}
+
+
+#future-forecast-content{
+    margin-left: 10px;
 }
 
