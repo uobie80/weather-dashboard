@@ -18,3 +18,14 @@ WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the   temperature, the wind speed, and the humidity  
 WHEN I click on a city in the search history  
 THEN I am again presented with current and future conditions for that city  
+
+
+## Weather Dashboard Page Mock-up
+![Weather Dashboard](weather_dashboard.png?raw=true "Weather Dashboard Site")
+
+
+## Link to Weather Dashboard Site
+Please refer to the following link to access the weather dashboard.  [Weather Dashboard](https://uobie80.github.io/weather-dashboard/) 
+
+
+
