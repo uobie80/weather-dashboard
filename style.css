@@ -7,7 +7,18 @@ body{
     text-align: center;
 }
 
+.curr-weather-content {
+    float: left;
+}
 
 
 
 
+
+
+
+
+.inputSearchHistory {
+    width: 100px;
+    margin: 5px;
+}
