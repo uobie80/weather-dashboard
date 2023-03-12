@@ -3,101 +3,11 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.wrapper {
-    width: 95%;
-    max-width: 90em;
-    margin: 0 auto;
-}
-
-#top-bar {
-    height:50px;
-    background-color: blue;
+.top-header.h3 {
     text-align: center;
 }
 
-h1 {
-    color: white;
-}
-
-h3 {
-
-    margin-left: 10px;
-    margin-bottom:0px;
-}
-
-#text-input {
-    margin-top:5px;
-    margin-left: 10px;
-}
-
-#btn-search {
-    margin-left: 10px;
-}
-
-#top-left-panel {
-
-    
-    height:155px;
-    width: 99.87%;
-   
-}
-#bottom-left-panel {
-
-   
-    height:642px;
-    width: 99.87%;
-   
-}
-
-#search-city-content {
-    height:155px;
-}
-
-#search-history-section {
-    height:642px;
-    
-}
-
-#search-history-list {
-    margin-left: 10px;
-}
 
 
-#future-weather-forecast{
-    height:642px;
-    width: 84.43%;
-}
 
-#current-weather-forecast{
-    height:155px;
-    width: 84.43%;
-}
-
-#search-history {
-    height:155px;
-    width: 15.33%;
-
-}
-
-.col {
-    
-    float: left;
-    width: 15.33%;
-}
-
-.container{
-    border:1px solid black;
-    width: 99.87%;
-    height: 800px;
-}
-
-
-#curr-forecast-content{
-    margin-left: 10px;
-}
-
-
-#future-forecast-content{
-    margin-left: 10px;
-}
 
