@@ -52,20 +52,8 @@ const weatherForecast = fetch(weatherForecastURL)
             let weatherIconURL = `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
               
-                 if (index === 0) {
+                 if (index === 8) {
                     return `<div class="card mb-4 shadow-sm text-white bg-secondary future-weather-card" style="margin-right: 10px; width: 12rem; height: auto; float:left">
-                    <img src="${weatherIconURL}" class="card-img-top" alt="weather icon" style="width: 5rem; height: 5rem;">
-                       <div class="card-body">
-                       <h5 class="card-title">${city}</h5>
-                       <h5 class="card-title">${date}</h5>
-                       <p class="card-text">Temp: ${temp} <span>&#8457;</span></p>
-                     <p class="card-text">Wind: ${speed} MPH</p>
-                     <p class="card-text">Humidity: ${humidity} %</p>  
-                    </div>
-                   </div>
-                  `;
-                 } else if (index === 8) {
-                    return `<div class="card  mb-4 shadow-sm text-white bg-secondary future-weather-card" style="margin-right: 10px; width: 12rem; height: auto; float:left">
                     <img src="${weatherIconURL}" class="card-img-top" alt="weather icon" style="width: 5rem; height: 5rem;">
                        <div class="card-body">
                        <h5 class="card-title">${city}</h5>
@@ -77,7 +65,7 @@ const weatherForecast = fetch(weatherForecastURL)
                    </div>
                   `;
                  } else if (index === 16) {
-                    return `<div class="card mb-4 shadow-sm text-white bg-secondary future-weather-card" style="margin-right: 10px; width: 12rem; height: auto; float:left">
+                    return `<div class="card  mb-4 shadow-sm text-white bg-secondary future-weather-card" style="margin-right: 10px; width: 12rem; height: auto; float:left">
                     <img src="${weatherIconURL}" class="card-img-top" alt="weather icon" style="width: 5rem; height: 5rem;">
                        <div class="card-body">
                        <h5 class="card-title">${city}</h5>
@@ -88,7 +76,7 @@ const weatherForecast = fetch(weatherForecastURL)
                     </div>
                    </div>
                   `;
-                 } else if (index === 24){
+                 } else if (index === 24) {
                     return `<div class="card mb-4 shadow-sm text-white bg-secondary future-weather-card" style="margin-right: 10px; width: 12rem; height: auto; float:left">
                     <img src="${weatherIconURL}" class="card-img-top" alt="weather icon" style="width: 5rem; height: 5rem;">
                        <div class="card-body">
@@ -101,6 +89,18 @@ const weatherForecast = fetch(weatherForecastURL)
                    </div>
                   `;
                  } else if (index === 32){
+                    return `<div class="card mb-4 shadow-sm text-white bg-secondary future-weather-card" style="margin-right: 10px; width: 12rem; height: auto; float:left">
+                    <img src="${weatherIconURL}" class="card-img-top" alt="weather icon" style="width: 5rem; height: 5rem;">
+                       <div class="card-body">
+                       <h5 class="card-title">${city}</h5>
+                       <h5 class="card-title">${date}</h5>
+                       <p class="card-text">Temp: ${temp} <span>&#8457;</span></p>
+                     <p class="card-text">Wind: ${speed} MPH</p>
+                     <p class="card-text">Humidity: ${humidity} %</p>  
+                    </div>
+                   </div>
+                  `;
+                 } else if (index === 40){
                     return `<div class="card mb-4 shadow-sm text-white bg-secondary future-weather-card" style="margin-right: 10px; width: 12rem; height: auto; float:left">
                     <img src="${weatherIconURL}" class="card-img-top" alt="weather icon" style="width: 5rem; height: 5rem;">
                        <div class="card-body">
