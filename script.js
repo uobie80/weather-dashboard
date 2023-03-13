@@ -39,7 +39,7 @@ const weatherForecast = fetch(weatherForecastURL)
                                 });
 
         weatherForecast.then(function(data) {
-          console.log(data.list)
+          console.log(data)
          futureForecastDiv.innerHTML = "<div class=card-deck'><h5>5 Day Forecast</h5>" +  data.list.map((item, index) => { 
          
             
@@ -100,7 +100,7 @@ const weatherForecast = fetch(weatherForecastURL)
                     </div>
                    </div>
                   `;
-                 } else if (index === 34){
+                 } else if (index === 38){
                     return `<div class="card mb-4 shadow-sm text-white bg-secondary future-weather-card" style="margin-right: 10px; width: 12rem; height: auto; float:left">
                     <img src="${weatherIconURL}" class="card-img-top" alt="weather icon" style="width: 5rem; height: 5rem;">
                        <div class="card-body">
